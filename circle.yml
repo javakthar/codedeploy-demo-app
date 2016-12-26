@@ -5,7 +5,7 @@ deployment:
   staging:
     branch: master
     codedeploy:
-       codedeploy-demo-app:
+       circleci-demo-app:
         application_root: /
         region: us-east-1
         revision_location:
