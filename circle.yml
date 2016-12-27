@@ -1,8 +1,6 @@
 test:
   override:
-    - php ./test.php
-    - mkdir -p $CIRCLE_TEST_REPORTS/phpunit
-    - phpunit --log-junit $CIRCLE_TEST_REPORTS/phpunit/junit.xml test
+    - php ./test.php    
 deployment:
   staging:
     branch: master
